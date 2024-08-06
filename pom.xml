@@ -12,7 +12,18 @@
     <artifactId>Project_A</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Project_A</name>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
+    <url>http:/maven.apache.org</url>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Ashrakat AbdELSattar Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/AshrakatAbdELSattar/maven-demo</url>
+        </repository>
+    </distributionManagement>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
