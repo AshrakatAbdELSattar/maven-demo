@@ -9,10 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>eg.gov.moj</groupId>
-    <artifactId>Project_A</artifactId>
+    <artifactId>java-project-a</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Project_A</name>
-    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
     <url>http:/maven.apache.org</url>
 
